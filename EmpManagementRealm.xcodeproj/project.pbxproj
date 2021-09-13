@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		0D03EF0F26EF126C00F28A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03EF0E26EF126C00F28A89 /* AppDelegate.swift */; };
 		0D03EF1126EF126C00F28A89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03EF1026EF126C00F28A89 /* SceneDelegate.swift */; };
-		0D03EF1326EF126C00F28A89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03EF1226EF126C00F28A89 /* ViewController.swift */; };
 		0D03EF1626EF126C00F28A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D03EF1426EF126C00F28A89 /* Main.storyboard */; };
 		0D03EF1926EF126C00F28A89 /* EmpManagementRealm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D03EF1726EF126C00F28A89 /* EmpManagementRealm.xcdatamodeld */; };
 		0D03EF1B26EF126E00F28A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D03EF1A26EF126E00F28A89 /* Assets.xcassets */; };
 		0D03EF1E26EF126E00F28A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D03EF1C26EF126E00F28A89 /* LaunchScreen.storyboard */; };
 		0D03EF2926EF126E00F28A89 /* EmpManagementRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03EF2826EF126E00F28A89 /* EmpManagementRealmTests.swift */; };
 		0D03EF3426EF126E00F28A89 /* EmpManagementRealmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03EF3326EF126E00F28A89 /* EmpManagementRealmUITests.swift */; };
+		0D03EF4E26EF129A00F28A89 /* EmployeeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D03EF4926EF129A00F28A89 /* EmployeeTableViewCell.xib */; };
+		0D03EF4F26EF129A00F28A89 /* EmployeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03EF4A26EF129A00F28A89 /* EmployeeTableViewCell.swift */; };
+		0D03EF5026EF129A00F28A89 /* EmployeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03EF4C26EF129A00F28A89 /* EmployeeListViewController.swift */; };
+		0D03EF5126EF129A00F28A89 /* AddEmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03EF4D26EF129A00F28A89 /* AddEmployeeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,6 @@
 		0D03EF0B26EF126C00F28A89 /* EmpManagementRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmpManagementRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D03EF0E26EF126C00F28A89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D03EF1026EF126C00F28A89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0D03EF1226EF126C00F28A89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0D03EF1526EF126C00F28A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D03EF1826EF126C00F28A89 /* EmpManagementRealm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmpManagementRealm.xcdatamodel; sourceTree = "<group>"; };
 		0D03EF1A26EF126E00F28A89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +53,10 @@
 		0D03EF2F26EF126E00F28A89 /* EmpManagementRealmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmpManagementRealmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D03EF3326EF126E00F28A89 /* EmpManagementRealmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpManagementRealmUITests.swift; sourceTree = "<group>"; };
 		0D03EF3526EF126E00F28A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D03EF4926EF129A00F28A89 /* EmployeeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeeTableViewCell.xib; sourceTree = "<group>"; };
+		0D03EF4A26EF129A00F28A89 /* EmployeeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewCell.swift; sourceTree = "<group>"; };
+		0D03EF4C26EF129A00F28A89 /* EmployeeListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeListViewController.swift; sourceTree = "<group>"; };
+		0D03EF4D26EF129A00F28A89 /* AddEmployeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEmployeeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +107,10 @@
 		0D03EF0D26EF126C00F28A89 /* EmpManagementRealm */ = {
 			isa = PBXGroup;
 			children = (
-				0D03EF0E26EF126C00F28A89 /* AppDelegate.swift */,
-				0D03EF1026EF126C00F28A89 /* SceneDelegate.swift */,
-				0D03EF1226EF126C00F28A89 /* ViewController.swift */,
-				0D03EF1426EF126C00F28A89 /* Main.storyboard */,
-				0D03EF1A26EF126E00F28A89 /* Assets.xcassets */,
-				0D03EF1C26EF126E00F28A89 /* LaunchScreen.storyboard */,
+				0D03EF5526EF12A000F28A89 /* Storyboard */,
+				0D03EF4826EF129A00F28A89 /* Cell */,
+				0D03EF4B26EF129A00F28A89 /* ViewController */,
+				0D03EF4726EF128000F28A89 /* Resources */,
 				0D03EF1F26EF126E00F28A89 /* Info.plist */,
 				0D03EF1726EF126C00F28A89 /* EmpManagementRealm.xcdatamodeld */,
 			);
@@ -129,6 +133,43 @@
 				0D03EF3526EF126E00F28A89 /* Info.plist */,
 			);
 			path = EmpManagementRealmUITests;
+			sourceTree = "<group>";
+		};
+		0D03EF4726EF128000F28A89 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D03EF0E26EF126C00F28A89 /* AppDelegate.swift */,
+				0D03EF1026EF126C00F28A89 /* SceneDelegate.swift */,
+				0D03EF1A26EF126E00F28A89 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0D03EF4826EF129A00F28A89 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0D03EF4926EF129A00F28A89 /* EmployeeTableViewCell.xib */,
+				0D03EF4A26EF129A00F28A89 /* EmployeeTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0D03EF4B26EF129A00F28A89 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0D03EF4C26EF129A00F28A89 /* EmployeeListViewController.swift */,
+				0D03EF4D26EF129A00F28A89 /* AddEmployeeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0D03EF5526EF12A000F28A89 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0D03EF1426EF126C00F28A89 /* Main.storyboard */,
+				0D03EF1C26EF126E00F28A89 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D03EF1E26EF126E00F28A89 /* LaunchScreen.storyboard in Resources */,
+				0D03EF4E26EF129A00F28A89 /* EmployeeTableViewCell.xib in Resources */,
 				0D03EF1B26EF126E00F28A89 /* Assets.xcassets in Resources */,
 				0D03EF1626EF126C00F28A89 /* Main.storyboard in Resources */,
 			);
@@ -261,8 +303,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D03EF1326EF126C00F28A89 /* ViewController.swift in Sources */,
+				0D03EF5126EF129A00F28A89 /* AddEmployeeViewController.swift in Sources */,
+				0D03EF5026EF129A00F28A89 /* EmployeeListViewController.swift in Sources */,
 				0D03EF0F26EF126C00F28A89 /* AppDelegate.swift in Sources */,
+				0D03EF4F26EF129A00F28A89 /* EmployeeTableViewCell.swift in Sources */,
 				0D03EF1126EF126C00F28A89 /* SceneDelegate.swift in Sources */,
 				0D03EF1926EF126C00F28A89 /* EmpManagementRealm.xcdatamodeld in Sources */,
 			);
